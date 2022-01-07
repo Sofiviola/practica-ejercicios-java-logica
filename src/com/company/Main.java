@@ -304,7 +304,109 @@ public class Main {
         }
  */
 //EJERCICIO 15
+        //Programa que lea por teclado tres números enteros H, M, S correspondientes a hora, minutos y segundos respectivamente,
+        // y comprueba si la hora que indican es una hora válida.
+        //Supondremos que se leemos una hora en modo 24 Horas, es decir, el valor válido para las horas será mayor o igual que cero y menor que 24.
+        //El valor válido para los minutos y segundos estará comprendido entre 0 y 59 ambos incluidos
+ /*
+        Scanner scanner = new Scanner(System.in);
+        int H, M, S;
+
+        System.out.println("Ingrese solo la hora: ");
+        H = scanner.nextInt();
+
+        System.out.println("Ingrese solo los minutos: ");
+        M = scanner.nextInt();
+
+        System.out.println("Ingrese solo los segundos: ");
+        S = scanner.nextInt();
+
+        if(H>=0 && H<24 && M>=0 && M<60 && S>=0 && S<60)
+            System.out.println("La hora es correcta: " + H + ":" + M + ":" + S );
+        else
+            System.out.println("La hora es incorrecta");
+*/
+
+//EJERCICIO 16
+        //Programa que lea una variable entera mes y compruebe si el valor corresponde a un mes de 30 días, de 31 o de 28.
+        // Supondremos que febrero tiene 28 días. Se mostrará además el nombre del mes. Se debe comprobar que el valor introducido
+        // esté comprendido entre 1 y 12.
+/*
+        Scanner scanner = new Scanner(System.in);
+        int  M;
+
+        System.out.println("Introduzca el numero del mes que desea (Ej: Enero introducir 1): ");
+        M = scanner.nextInt();
+
+// Solucion 1
+//        if(1<= M && M<=12){
+//            if(M == 1 || M ==3 || M==5 || M ==7 || M== 8 || M==10 || M==12){
+//                System.out.println(M + " es un mes de 31 dias");
+//            }else if ( M == 2 ){
+//                System.out.println(M + " es un mes de 28 dias");
+//            }else{
+//                System.out.println(M + " es un mes de 30 dias");
+//            }
+//        }
+
+
+// Solucion 2
+        if(M < 1 || M > 12) //se comprueba que el valor del mes es correcto
+            System.out.println("Mes incorrecto");
+        else{  //si el mes es correcto
+            switch(M){  //se muestra el nombre mediante una instrucción switch
+                case 1: System.out.print("Enero");
+                    break;
+                case 2: System.out.print("Febrero");
+                    break;
+                case 3: System.out.print("Marzo");
+                    break;
+                case 4: System.out.print("Abril");
+                    break;
+                case 5: System.out.print("Mayo");
+                    break;
+                case 6: System.out.print("Junio");
+                    break;
+                case 7: System.out.print("Julio");
+                    break;
+                case 8: System.out.print("Agosto");
+                    break;
+                case 9: System.out.print("Septiembre");
+                    break;
+                case 10: System.out.print("Octubre");
+                    break;
+                case 11: System.out.print("Noviembre");
+                    break;
+                case 12: System.out.print("Diciembre");
+                    break;
+            }
+            // mostrar si es un mes de 30, 31 0 28 días
+            if(M == 4 || M == 6 || M == 9 || M == 11)
+                System.out.println(" es un mes de 30 días");
+            else if(M == 2)
+                System.out.println(" es un mes de 28 días");
+            else
+                System.out.println(" es un mes de 31 días");
+        }
+*/
+
+//EJERCICIO 17
         //
 
-    }
+//EJERCICIO 18
+        //
+
+//EJERCICIO 19
+        //
+
+//EJERCICIO 20
+        //
+
+//EJERCICIO 21
+        //
+
+//EJERCICIO 22
+        //
+
+   }
 }
