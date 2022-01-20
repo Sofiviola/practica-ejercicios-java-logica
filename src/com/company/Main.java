@@ -391,22 +391,94 @@ public class Main {
 */
 
 //EJERCICIO 17
-        //
+        //Programa Java que muestre los números del 1 al 100 utilizando la instrucción while.
+/*
+        System.out.println("Numeros del 1 al 100: ");
+        int i=1;
+        while(i<=100) {
+            System.out.println(i);
+            i++;
+        }
+*/
 
 //EJERCICIO 18
-        //
+        //Programa Java que muestre los números del 1 al 100 utilizando la instrucción do..while
+/*
+    int i = 1;
+        System.out.println("Numeros del 1 al 100: ");
+        do{
+                   System.out.println(i);
+                   i++;
+        }while(i<=100);
+    }
+ */
 
 //EJERCICIO 19
-        //
+        //Programa Java que muestre los números del 1 al 100 utilizando la instrucción for.
+/*
+  System.out.println("Numeros del 1 al 100: ");
+        for(int i = 1; i<=100;i++)
+            System.out.println(i);
+    }
+ */
 
 //EJERCICIO 20
-        //
+        //Programa Java que muestre los números del 100 al 1 utilizando la instrucción while
+/*
+  System.out.println("Numeros del 100 al 1: ");
+         int i=100;
+         while(i>=1)
+         {
+                   System.out.println(i);
+                   i--;
+         }
+ */
 
 //EJERCICIO 21
-        //
+        //Programa Java que muestre los números del 100 al 1 utilizando la instrucción do..while.
+ /*
+  int i = 100;
+        System.out.println("Numeros del 100 al 1: ");
+         do{
+                   System.out.println(i);
+                   i--;
+        }while(i>=1);
+    }
+  */
 
 //EJERCICIO 22
-        //
+        //Programa Java que muestre los números del 100 al 1 utilizando la instrucción for.
+/*
+System.out.println("Numeros del 100 al 1: ");
+        for(int i=100;i>=1;i--)
+            System.out.println(i);
+    }
+ */
 
-   }
-}
+//EJERCICIO 23
+        //
+//EJERCICIO 24
+        //
+//EJERCICIO 25
+        //
+//EJERCICIO 26
+        //
+//EJERCICIO 27
+        //
+//EJERCICIO 28
+        //
+//EJERCICIO 29
+        //
+//EJERCICIO 30
+        //
+//EJERCICIO 31
+        //
+//EJERCICIO 32
+        //
+//EJERCICIO 33
+        //
+//EJERCICIO 34
+        //
+//EJERCICIO 35
+        //
+   }}
